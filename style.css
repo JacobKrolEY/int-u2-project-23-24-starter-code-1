@@ -1,19 +1,68 @@
 /* The code below puts the title of the website in the center */
-.title { 
-    text-align: center;
+.title {
+  text-align: center;
 }
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
-    color: black;
-    text-align: center;
-    background-color: white;
+  color: #2b6a66;
+  text-align: center;
+  background-color: #f5f5f5;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 
 /* The code below adds a black background-color and white text color for each section heading. */
 .section {
-    color:white;
-    text-align: center;
-    background-color: black;
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.section h1 {
+  padding: 10px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 0px darkgray;
+}
+
+.fab {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: #f5f5f5;
+  transition: transform 750ms ease;
+  cursor: pointer;
+}
+
+li {
+  text-align: left;
+}
+
+.fab:hover {
+  transform: rotate(-360deg);
+}
+
+
+
+.small {
+  font-size: 0.75rem;
 }
